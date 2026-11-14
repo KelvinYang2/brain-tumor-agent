@@ -1,0 +1,452 @@
+{
+  "BraTS2021_00000": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT frontal lobe with significant surrounding vasogenic edema extending into the adjacent white matter. There appears to be some extension along the lateral ventricle surface. This finding is highly suggestive of glioblastoma multiforme. No other focal lesions or abnormal signal intensity within the remaining brain parenchyma. Normal appearance of the posterior fossa structures including the fourth ventricle. IMPRESSION: Right frontal lobe tumor consistent with glioblastoma.",
+    "inference_time_s": 9.62
+  },
+  "BraTS2021_00002": {
+    "diagnosis": "metastasis",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT frontal lobe with surrounding vasogenic edema extending into the adjacent white matter. There appears to be some extension along the lateral ventricle wall. This finding is consistent with a primary or metastatic tumor. A biopsy would be required for definitive diagnosis. Other findings include mild periventricular chronic microangiopathy. No acute infarct or hemorrhage identified. Normal flow voids seen within the intracranial vessels. IMPRESSION: Enhancing right frontal lobe mass with associated vasogenic edema suggestive of neoplasm. Biopsy recommended.",
+    "inference_time_s": 10.43
+  },
+  "BraTS2021_00003": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "ring",
+    "raw_output": "There is an enhancing mass in the left frontal lobe with surrounding vasogenic edema. There appears to be some peripheral ring enhancement as well. This finding is consistent with a primary or metastatic tumor such as glioblastoma multiforme. A secondary consideration would include infection/abscess given the location but less likely without other signs suggestive of infection. Other possibilities could include metastasis from another site if there was no known primary cancer elsewhere. Further imaging like CT chest/abdomen/pelvis may be needed for staging if malignancy is suspected. Additional contrast sequences including FLAIR and DWI might help further characterize the lesion.\n\nFinal Answer: The final answer is $\\boxed{Enhancing mass in the Left Frontal Lobe}$",
+    "inference_time_s": 13.16
+  },
+  "BraTS2021_00005": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT temporal lobe with surrounding edema extending into the adjacent parietal lobe. There appears to be some extension through the skull base into the posterior fossa. This finding is highly suggestive of a primary or metastatic tumor such as glioblastoma multiforme (GBM). Other possibilities include metastasis from another site, lymphoma, or less commonly, infection/abscess. Further evaluation including biopsy would be required for definitive diagnosis.",
+    "inference_time_s": 9.76
+  },
+  "BraTS2021_00006": {
+    "diagnosis": "meningioma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "none",
+    "raw_output": "There appears to be an enhancing mass in the left frontal lobe with surrounding edema. This could represent a primary or metastatic tumor. Further evaluation would include contrast enhanced CT/MRI of the head as well as biopsy for definitive diagnosis. Other possibilities include abscesses or inflammatory lesions. A non-enhancing lesion may also be present within this region which might suggest cystic nature. Additional imaging such as FLAIR sequences can help differentiate between these entities. Given the location and appearance, meningioma should be considered. Metastasis cannot be ruled out without further investigation. An infectious etiology like abscess must also be excluded.\n\nFinal Answer: The final answer is $\\boxed{Enhancing mass in the Left Frontal Lobe}$",
+    "inference_time_s": 13.79
+  },
+  "BraTS2021_00008": {
+    "diagnosis": "other",
+    "laterality": "unknown",
+    "lobe": "unknown",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "The provided images show normal contrast enhancement in the brain parenchyma with no evidence for mass or abnormal signal intensity. There appears to be some artifact present within the posterior fossa region which may obscure subtle findings but does not appear to represent an abnormality itself. No acute infarct or hemorrhage identified. Normal appearance of the ventricles and sulci.",
+    "inference_time_s": 7.76
+  },
+  "BraTS2021_00009": {
+    "diagnosis": "metastasis",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing lesion in the left frontal lobe with surrounding edema. This could represent a primary or metastatic tumor. Other possibilities include infection/abscess or inflammatory process. Further evaluation including biopsy may be needed for definitive diagnosis. There appears to be some mild mass effect upon the adjacent parenchyma without midline shift. No hydrocephalus noted.",
+    "inference_time_s": 7.78
+  },
+  "BraTS2021_00011": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "parietal",
+    "grade": "high",
+    "enhancement": "ring",
+    "raw_output": "There is an enhancing mass in the left parietal lobe with significant surrounding edema extending into the adjacent white matter. There appears to be some peripheral ring enhancement present as well. This finding is highly suggestive of a primary or metastatic tumor such as glioblastoma multiforme (GBM). Other possibilities include metastasis from another site, lymphoma, or less commonly, infection/abscess. Further investigation including biopsy would be required for definitive diagnosis.",
+    "inference_time_s": 9.0
+  },
+  "BraTS2021_00012": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT frontal lobe with significant surrounding vasogenic edema extending into the right lateral ventricle. There appears to be some extension along the corpus callosum towards the left hemisphere. This finding is highly suggestive of glioblastoma multiforme.",
+    "inference_time_s": 6.33
+  },
+  "BraTS2021_00014": {
+    "diagnosis": "other",
+    "laterality": "unknown",
+    "lobe": "unknown",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "The provided images show normal contrast enhancement in the brain parenchyma with no focal lesions or areas of abnormal signal intensity. There appears to be some artifact present within the ventricles which may represent CSF flow related artifacts. No obvious masses, hemorrhages, infarcts, or other significant findings are identified. This appearance is consistent with a normal study.",
+    "inference_time_s": 7.54
+  },
+  "BraTS2021_00016": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "parietal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the right parietal lobe with surrounding edema. This finding is consistent with a primary or metastatic tumor. A biopsy would be required for definitive diagnosis. There is no evidence of intracranial hemorrhage or hydrocephalus. No midline shift is observed. Normal flow voids are seen within both vertebral arteries bilaterally. IMPRESSION: Enhancing mass in the RIGHT parietal lobe with associated edema. Differential includes primary glioblastoma multiforme versus metastasis. Biopsy recommended.",
+    "inference_time_s": 9.52
+  },
+  "BraTS2021_00017": {
+    "diagnosis": "metastasis",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "The left frontal lobe shows an enhancing lesion with surrounding edema in the region of the lentiform nucleus. This finding suggests possible infectious or inflammatory etiology such as abscess formation. Other possibilities include tumor metastasis or primary neoplasm. Further evaluation including contrast enhanced CT/MRI would be needed for definitive characterization. No other significant findings noted.",
+    "inference_time_s": 7.41
+  },
+  "BraTS2021_00018": {
+    "diagnosis": "metastasis",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT temporal lobe with surrounding edema extending into the adjacent parietal lobe. There appears to be some extension along the lateral ventricle wall. This finding is consistent with a primary or metastatic tumor. A biopsy would be required for definitive diagnosis. Other findings include mild periventricular white matter changes suggestive of chronic small vessel ischemic disease. No acute infarct is identified.",
+    "inference_time_s": 8.22
+  },
+  "BraTS2021_00019": {
+    "diagnosis": "unknown",
+    "laterality": "unknown",
+    "lobe": "unknown",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "The provided images show an MRI of the brain with contrast. There appears to be no obvious abnormality in this limited view. However, without clinical context or comparison studies, it is impossible to make a definitive diagnosis. A radiologist would need to review these images along with other relevant information before providing one.",
+    "inference_time_s": 6.99
+  },
+  "BraTS2021_00020": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "parietal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the left parietal lobe with surrounding edema. This finding is consistent with glioblastoma multiforme. There is no evidence for intracranial hemorrhage or hydrocephalus. No midline shift is observed.",
+    "inference_time_s": 5.7
+  },
+  "BraTS2021_00021": {
+    "diagnosis": "metastasis",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the left frontal lobe with surrounding vasogenic edema. There appears to be some extension into the adjacent white matter tracts. This finding is consistent with a primary or metastatic tumor. A biopsy would be required for definitive diagnosis. Other possibilities include infection/abscess but less likely given the appearance. No other significant findings noted.",
+    "inference_time_s": 7.74
+  },
+  "BraTS2021_00022": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "parietal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the left parietal lobe with significant surrounding edema extending into the adjacent white matter. There appears to be some extension along the lateral ventricle wall. This finding is highly suggestive of glioblastoma multiforme or another primary malignant tumor. A secondary process such as infection cannot be entirely excluded but less likely given the appearance. No other focal lesions are identified within the field of view. Normal signal intensity is seen throughout the remaining brain parenchyma.",
+    "inference_time_s": 9.29
+  },
+  "BraTS2021_00024": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "The left frontal lobe shows an enhancing mass with surrounding edema extending into the adjacent white matter. This finding is consistent with glioblastoma multiforme. There is no evidence for intracranial hemorrhage or hydrocephalus. No midline shift is observed.",
+    "inference_time_s": 5.92
+  },
+  "BraTS2021_00025": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "The left frontal lobe shows an enhancing mass with surrounding edema. This could represent a primary tumor such as glioblastoma or metastasis, or less likely, an abscess. A biopsy would be needed for definitive diagnosis. There is no evidence of hemorrhage within this lesion. No other significant findings are noted in these limited views.",
+    "inference_time_s": 7.25
+  },
+  "BraTS2021_00026": {
+    "diagnosis": "metastasis",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT temporal lobe with surrounding edema extending into the adjacent parietal cortex. There appears to be some extension along the lateral ventricle wall. This finding is consistent with a primary or metastatic tumor. A biopsy would be required for definitive diagnosis. Other findings include scattered foci of susceptibility artifact which may represent calcifications or hemosiderin deposition. No acute infarct is identified.",
+    "inference_time_s": 8.34
+  },
+  "BraTS2021_00028": {
+    "diagnosis": "metastasis",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "The left frontal lobe shows an enhancing mass with surrounding edema extending into the adjacent white matter. This finding is consistent with a primary or metastatic tumor. A biopsy would be required for definitive diagnosis. There is no evidence of hemorrhage within this lesion. No other significant findings are noted in the provided images.",
+    "inference_time_s": 6.93
+  },
+  "BraTS2021_00030": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the left temporal lobe with surrounding edema extending into the adjacent parietal lobe. There appears to be some extension along the lateral ventricle wall. This finding is consistent with a primary or metastatic tumor such as glioblastoma multiforme. A biopsy would be required for definitive diagnosis. No other significant findings noted.",
+    "inference_time_s": 7.39
+  },
+  "BraTS2021_00031": {
+    "diagnosis": "metastasis",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the left frontal lobe with surrounding edema. This finding is consistent with a primary or metastatic tumor. Further evaluation including biopsy may be warranted for definitive diagnosis. There is no evidence of intracranial hemorrhage. No midline shift is observed. Ventricles appear normal in size.",
+    "inference_time_s": 6.85
+  },
+  "BraTS2021_00032": {
+    "diagnosis": "metastasis",
+    "laterality": "RIGHT",
+    "lobe": "parietal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the right parietal lobe with surrounding edema. This finding is consistent with a primary or metastatic tumor. Further evaluation including biopsy may be warranted for definitive diagnosis. There is no evidence of intracranial hemorrhage. No midline shift is observed. Ventricles appear normal in size.",
+    "inference_time_s": 6.87
+  },
+  "BraTS2021_00033": {
+    "diagnosis": "metastasis",
+    "laterality": "BILATERAL",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "ring",
+    "raw_output": "The provided images show a contrast-enhanced T1 weighted MRI of the brain with multiple lesions in both cerebral hemispheres. There appears to be an enhancing lesion within the left frontal lobe that demonstrates ring enhancement. Additionally there appear to be several smaller nonenhancing lesions scattered throughout bilateral parietal lobes as well as right temporal lobe. These findings could represent metastatic disease or multifocal infection such as toxoplasmosis. Further evaluation including PET/CT would be needed for definitive characterization. A biopsy may also be considered depending on clinical context.\n\nFinal Answer: The final answer is $\\boxed{Metastatic Disease}$",
+    "inference_time_s": 11.49
+  },
+  "BraTS2021_00035": {
+    "diagnosis": "metastasis",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT temporal lobe with surrounding edema. This finding is consistent with a primary or metastatic tumor. A biopsy would be required for definitive diagnosis. There is no evidence of hydrocephalus or midline shift. No acute infarct is identified.",
+    "inference_time_s": 6.31
+  },
+  "BraTS2021_00036": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "ring",
+    "raw_output": "There is an enhancing mass in the RIGHT frontal lobe with surrounding vasogenic edema extending into the adjacent white matter. There appears to be some peripheral ring enhancement present as well. This finding is consistent with a primary or metastatic tumor such as glioblastoma multiforme. Other possibilities include metastasis from another site, lymphoma, or less commonly, infection/abscess. Further evaluation including biopsy would be required for definitive diagnosis. No other significant findings noted within these limited views.",
+    "inference_time_s": 9.5
+  },
+  "BraTS2021_00043": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT temporal lobe with surrounding edema extending into the adjacent parietal lobe. There appears to be some extension through the tentorium cerebelli into the posterior fossa. This finding is highly suggestive of a primary or metastatic tumor such as glioblastoma multiforme (GBM). Other possibilities include metastasis from another site, lymphoma, or less commonly, infection/abscess. Further evaluation including biopsy would be required for definitive diagnosis. No significant midline shift is evident based solely on these images. A contrast enhanced CT head may also be helpful if available.",
+    "inference_time_s": 11.15
+  },
+  "BraTS2021_00044": {
+    "diagnosis": "metastasis",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There appears to be an enhancing lesion in the right frontal lobe with surrounding edema. This could represent a primary or metastatic tumor. Other possibilities include infection/abscess or inflammatory process. Further evaluation including contrast enhanced CT would be needed for definitive characterization. There may also be some subtle signal abnormality within the left parietal cortex which might reflect underlying pathology as well. A biopsy would be required for confirmation.",
+    "inference_time_s": 8.47
+  },
+  "BraTS2021_00045": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "The left temporal lobe shows an enhancing mass with surrounding edema. This finding is consistent with glioblastoma multiforme. There is no evidence for intracranial hemorrhage or hydrocephalus. No midline shift is observed.",
+    "inference_time_s": 5.48
+  },
+  "BraTS2021_00046": {
+    "diagnosis": "metastasis",
+    "laterality": "LEFT",
+    "lobe": "parietal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing lesion in the left parietal lobe with surrounding edema. This finding is consistent with a primary or metastatic tumor. A biopsy would be required for definitive diagnosis. There is no evidence of hydrocephalus. No midline shift is observed.",
+    "inference_time_s": 6.08
+  },
+  "BraTS2021_00048": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "parietal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the right parietal lobe with surrounding edema. This finding is consistent with a primary brain tumor such as glioblastoma multiforme or metastatic disease. There may be associated vasogenic edema within the adjacent white matter. No other significant findings are noted.",
+    "inference_time_s": 6.56
+  },
+  "BraTS2021_00049": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT frontal lobe with significant surrounding edema. There appears to be some hemorrhage within this lesion as well. This finding is highly suggestive of a primary or metastatic tumor such as glioblastoma multiforme (GBM). Other possibilities include metastasis from another site, although less common than GBM given its location. A biopsy would be required for definitive diagnosis. No other focal lesions are identified. Normal signal intensity throughout the remaining brain parenchyma. Ventricles appear normal size.",
+    "inference_time_s": 9.9
+  },
+  "BraTS2021_00051": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT temporal lobe with surrounding edema extending into the adjacent parietal lobe. There appears to be some extension along the lateral ventricle wall. This finding is consistent with a primary or metastatic tumor such as glioblastoma multiforme (GBM). Other possibilities include metastasis from another site, lymphoma, or less commonly, infection/abscess. Further evaluation including biopsy would be required for definitive diagnosis. No other significant findings noted within the visualized portions of the brain parenchyma. Normal appearance of the ventricles and sulci.",
+    "inference_time_s": 10.6
+  },
+  "BraTS2021_00052": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the left temporal lobe with surrounding edema extending into the adjacent parietal lobe. There appears to be some extension through the skull base involving the middle cranial fossa. This finding is highly suggestive of glioblastoma multiforme. Other possibilities include metastasis or primary CNS lymphoma but less likely given the appearance. A biopsy would be required for definitive diagnosis.",
+    "inference_time_s": 7.93
+  },
+  "BraTS2021_00053": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "ring",
+    "raw_output": "There is an enhancing mass in the RIGHT frontal lobe with surrounding vasogenic edema. There appears to be some peripheral ring enhancement as well. This finding is consistent with a primary or metastatic tumor such as glioblastoma multiforme. Other possibilities include metastasis from another site, lymphoma, or less commonly, infection/abscess. Further evaluation including biopsy would be required for definitive diagnosis. No other significant findings noted within these limited views.",
+    "inference_time_s": 8.96
+  },
+  "BraTS2021_00054": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "ring",
+    "raw_output": "There is an enhancing mass in the RIGHT frontal lobe with significant surrounding vasogenic edema extending into the subarachnoid space. There appears to be some peripheral ring enhancement present within this lesion as well. This finding is highly suggestive of glioblastoma multiforme (GBM). Other possibilities include metastasis or less commonly primary CNS lymphoma. Further characterization would require additional imaging such as contrast enhanced CT/MRI sequences through the orbits and skull base. A biopsy for definitive histopathological confirmation is recommended.",
+    "inference_time_s": 9.93
+  },
+  "BraTS2021_00056": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT temporal lobe with surrounding vasogenic edema extending into the adjacent parietal lobe. There appears to be some extension along the lateral ventricle wall. This finding is consistent with glioblastoma multiforme. No other significant findings are noted.",
+    "inference_time_s": 6.39
+  },
+  "BraTS2021_00058": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "The left frontal lobe shows an enhancing mass with surrounding edema extending into the adjacent white matter. This finding is consistent with glioblastoma multiforme. There is no evidence for intracranial hemorrhage or hydrocephalus. No midline shift is observed.",
+    "inference_time_s": 5.94
+  },
+  "BraTS2021_00059": {
+    "diagnosis": "metastasis",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT frontal lobe with surrounding edema extending into the adjacent white matter. This finding is consistent with a primary or metastatic tumor. There may be associated vasogenic edema within the right temporal lobe as well. No other significant findings are noted.",
+    "inference_time_s": 6.45
+  },
+  "BraTS2021_00060": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "ring",
+    "raw_output": "There is an enhancing mass in the left frontal lobe with surrounding vasogenic edema extending into the adjacent white matter. There appears to be some peripheral ring enhancement as well. This finding is highly suggestive of glioblastoma multiforme. Other possibilities include metastasis or primary CNS lymphoma but less likely given the appearance. A biopsy would be required for definitive diagnosis.",
+    "inference_time_s": 7.75
+  },
+  "BraTS2021_00061": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing lesion in the RIGHT temporal lobe with surrounding edema. This could represent a tumor such as glioblastoma or metastasis. Other possibilities include abscess or inflammatory process. Further evaluation including biopsy would be needed for definitive diagnosis. There is no evidence of hydrocephalus. No midline shift. Normal ventricles.",
+    "inference_time_s": 7.16
+  },
+  "BraTS2021_00062": {
+    "diagnosis": "metastasis",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "ring",
+    "raw_output": "There appears to be an enhancing mass in the left frontal lobe with surrounding edema. This could represent a primary or metastatic tumor. Further evaluation would include contrast enhanced CT/MRI of the head as well as biopsy for definitive diagnosis. Other possibilities include infection such as abscess or inflammatory process like encephalitis. A non-enhancing lesion may also have been missed if it was not present during this specific imaging study. Additional information about clinical history and symptoms would aid in narrowing down differential diagnoses.",
+    "inference_time_s": 9.61
+  },
+  "BraTS2021_00063": {
+    "diagnosis": "metastasis",
+    "laterality": "LEFT",
+    "lobe": "parietal",
+    "grade": "unknown",
+    "enhancement": "ring",
+    "raw_output": "There is an enhancing lesion in the left parietal lobe with surrounding edema and ring enhancement. This finding is consistent with a primary or metastatic tumor. There may be additional smaller lesions present within the white matter bilaterally which could represent metastases as well. A contrast enhanced CT would be helpful for further evaluation if clinically indicated. No other significant findings identified.",
+    "inference_time_s": 7.64
+  },
+  "BraTS2021_00064": {
+    "diagnosis": "metastasis",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the RIGHT frontal lobe with surrounding vasogenic edema extending into the adjacent white matter. There appears to be some extension along the lateral ventricle surface. This finding is consistent with a primary or metastatic tumor. A biopsy would be required for definitive diagnosis. Other findings include scattered foci of hemosiderin deposition within the periventricular white matter bilaterally which may represent chronic microhemorrhages related to hypertension. No acute infarct is identified.",
+    "inference_time_s": 9.34
+  },
+  "BraTS2021_00066": {
+    "diagnosis": "metastasis",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "ring",
+    "raw_output": "There is an enhancing lesion in the left frontal lobe with surrounding edema and ring enhancement. This finding is consistent with a primary or metastatic tumor. There may be associated vasogenic edema. No other significant findings are noted.",
+    "inference_time_s": 5.7
+  },
+  "BraTS2021_00068": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the left frontal lobe with surrounding edema extending into the adjacent white matter. There appears to be some extension along the lateral ventricle wall. This finding is consistent with a primary or metastatic tumor such as glioblastoma multiforme. Other possibilities include metastasis from another site, lymphoma, or abscess although less likely given the appearance. A biopsy would be required for definitive diagnosis.",
+    "inference_time_s": 8.4
+  },
+  "BraTS2021_00070": {
+    "diagnosis": "metastasis",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "ring",
+    "raw_output": "There is an enhancing mass in the RIGHT frontal lobe with significant surrounding edema. There appears to be some peripheral ring enhancement present as well. This finding is highly suggestive of a primary or metastatic neoplasm within the brain parenchyma. A contrast enhanced CT would also be helpful for further characterization. Other possibilities include abscesses although less likely given the location and appearance. Further imaging such as PET/CT may be considered depending on clinical context.",
+    "inference_time_s": 8.98
+  },
+  "BraTS2021_00071": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the left temporal lobe with surrounding edema extending into the adjacent parietal cortex. There appears to be some extension along the lateral ventricle wall. This finding is consistent with a primary or metastatic tumor such as glioblastoma multiforme (GBM). Other possibilities include metastasis from another site, lymphoma, or less commonly, infection/abscess. Further characterization would require additional imaging sequences like diffusion weighted imaging (DWI), FLAIR, and contrast enhanced T1-MRI. A biopsy may also be necessary for definitive diagnosis.",
+    "inference_time_s": 10.77
+  },
+  "BraTS2021_00072": {
+    "diagnosis": "metastasis",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an enhancing mass in the right frontal lobe with surrounding edema extending into the adjacent white matter. There appears to be some extension along the lateral ventricle surface. This finding is consistent with a primary or metastatic tumor. A biopsy would be required for definitive diagnosis. No other significant findings noted. Normal appearance of the ventricles and sulci.",
+    "inference_time_s": 7.62
+  }
+}

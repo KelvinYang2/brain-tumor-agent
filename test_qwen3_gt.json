@@ -1,0 +1,146 @@
+{
+  "BraTS2021_00000": {
+    "features": {
+      "laterality": "LEFT",
+      "lateral_offset_mm": -18.3,
+      "ap_offset_mm": 46.0,
+      "si_offset_mm": -8.3,
+      "lobe": "frontal",
+      "volume_whole_tumor_cm3": 57.3,
+      "volume_tumor_core_cm3": 44.5,
+      "volume_enhancing_cm3": 32.7,
+      "volume_necrosis_cm3": 11.7,
+      "volume_edema_cm3": 12.8,
+      "enhancement_pattern": "heterogeneous",
+      "edema_extent": "mild",
+      "necrosis_present": true,
+      "mass_effect": "possible"
+    },
+    "prompt": "You are a neuroradiologist reviewing a brain MRI. A prior automated segmentation and feature extraction pipeline has analyzed the patient's pre-operative MRI and extracted the following structured findings:\n\n## Structured Imaging Findings\n\n- Lesion laterality: LEFT hemisphere (-18.3 mm from brain midline)\n- Primary location: frontal lobe\n- Whole tumor volume (including edema): 57.3 cm³\n- Tumor core volume (necrosis + enhancing): 44.5 cm³\n- Enhancing tumor volume: 32.7 cm³\n- Necrotic core: present (11.7 cm³, central)\n- Peritumoral edema: mild (12.8 cm³)\n- Enhancement pattern: heterogeneous\n- Mass effect: possible\n\n## Your Task\n\nBased SOLELY on these structured findings (do not speculate beyond what the features support), provide your diagnostic assessment.\n\nRespond with ONLY a JSON object in exactly this format, with no preamble or text outside the JSON:\n\n{\n  \"diagnosis\": \"<one of: glioblastoma, low_grade_glioma, meningioma, metastasis, lymphoma, abscess, other>\",\n  \"confidence\": <float between 0.0 and 1.0>,\n  \"laterality\": \"<LEFT, RIGHT, BILATERAL, or MIDLINE>\",\n  \"lobe\": \"<frontal, temporal, parietal, occipital, cerebellar, brainstem, or deep>\",\n  \"grade\": \"<high or low>\",\n  \"enhancement\": \"<ring, solid, homogeneous, heterogeneous, none>\",\n  \"key_evidence\": [\"<finding 1>\", \"<finding 2>\", \"<finding 3>\"],\n  \"differentials\": [\n    {\"diagnosis\": \"<alternative>\", \"discriminator\": \"<what info would rule in/out>\"},\n    {\"diagnosis\": \"<alternative>\", \"discriminator\": \"<what info would rule in/out>\"}\n  ]\n}",
+    "raw_output": "{\n  \"diagnosis\": \"glioblastoma\",\n  \"confidence\": 0.88,\n  \"laterality\": \"LEFT\",\n  \"lobe\": \"frontal\",\n  \"grade\": \"high\",\n  \"enhancement\": \"heterogeneous\",\n  \"key_evidence\": [\"Tumor core volume (necrosis + enhancing): 44.5 cm³\", \"Necrotic core: present (11.7 cm³, central)\", \"Enhancement pattern: heterogeneous\"],\n  \"differentials\": [\n    {\"diagnosis\": \"low_grade_glioma\", \"discriminator\": \"absence of necrosis and less heterogeneous enhancement\"},\n    {\"diagnosis\": \"metastasis\", \"discriminator\": \"typically smaller tumor core volume and less necrosis\"}\n  ]\n}",
+    "parsed": {
+      "diagnosis": "glioblastoma",
+      "confidence": 0.88,
+      "laterality": "LEFT",
+      "lobe": "frontal",
+      "grade": "high",
+      "enhancement": "heterogeneous",
+      "key_evidence": [
+        "Tumor core volume (necrosis + enhancing): 44.5 cm³",
+        "Necrotic core: present (11.7 cm³, central)",
+        "Enhancement pattern: heterogeneous"
+      ],
+      "differentials": [
+        {
+          "diagnosis": "low_grade_glioma",
+          "discriminator": "absence of necrosis and less heterogeneous enhancement"
+        },
+        {
+          "diagnosis": "metastasis",
+          "discriminator": "typically smaller tumor core volume and less necrosis"
+        }
+      ],
+      "parse_success": true,
+      "parse_method": "direct_json"
+    },
+    "inference_time_s": 23.06,
+    "model": "Qwen3-14B-4bit",
+    "mask_source": "gt.nii.gz"
+  },
+  "BraTS2021_00002": {
+    "features": {
+      "laterality": "LEFT",
+      "lateral_offset_mm": -19.5,
+      "ap_offset_mm": 33.7,
+      "si_offset_mm": -0.5,
+      "lobe": "frontal",
+      "volume_whole_tumor_cm3": 190.6,
+      "volume_tumor_core_cm3": 34.9,
+      "volume_enhancing_cm3": 23.7,
+      "volume_necrosis_cm3": 11.2,
+      "volume_edema_cm3": 155.7,
+      "enhancement_pattern": "heterogeneous",
+      "edema_extent": "extensive",
+      "necrosis_present": true,
+      "mass_effect": "likely present (large unilateral lesion)"
+    },
+    "prompt": "You are a neuroradiologist reviewing a brain MRI. A prior automated segmentation and feature extraction pipeline has analyzed the patient's pre-operative MRI and extracted the following structured findings:\n\n## Structured Imaging Findings\n\n- Lesion laterality: LEFT hemisphere (-19.5 mm from brain midline)\n- Primary location: frontal lobe\n- Whole tumor volume (including edema): 190.6 cm³\n- Tumor core volume (necrosis + enhancing): 34.9 cm³\n- Enhancing tumor volume: 23.7 cm³\n- Necrotic core: present (11.2 cm³, central)\n- Peritumoral edema: extensive (155.7 cm³)\n- Enhancement pattern: heterogeneous\n- Mass effect: likely present (large unilateral lesion)\n\n## Your Task\n\nBased SOLELY on these structured findings (do not speculate beyond what the features support), provide your diagnostic assessment.\n\nRespond with ONLY a JSON object in exactly this format, with no preamble or text outside the JSON:\n\n{\n  \"diagnosis\": \"<one of: glioblastoma, low_grade_glioma, meningioma, metastasis, lymphoma, abscess, other>\",\n  \"confidence\": <float between 0.0 and 1.0>,\n  \"laterality\": \"<LEFT, RIGHT, BILATERAL, or MIDLINE>\",\n  \"lobe\": \"<frontal, temporal, parietal, occipital, cerebellar, brainstem, or deep>\",\n  \"grade\": \"<high or low>\",\n  \"enhancement\": \"<ring, solid, homogeneous, heterogeneous, none>\",\n  \"key_evidence\": [\"<finding 1>\", \"<finding 2>\", \"<finding 3>\"],\n  \"differentials\": [\n    {\"diagnosis\": \"<alternative>\", \"discriminator\": \"<what info would rule in/out>\"},\n    {\"diagnosis\": \"<alternative>\", \"discriminator\": \"<what info would rule in/out>\"}\n  ]\n}",
+    "raw_output": "{\n  \"diagnosis\": \"glioblastoma\",\n  \"confidence\": 0.85,\n  \"laterality\": \"LEFT\",\n  \"lobe\": \"frontal\",\n  \"grade\": \"high\",\n  \"enhancement\": \"heterogeneous\",\n  \"key_evidence\": [\"Whole tumor volume (including edema): 190.6 cm³\", \"Tumor core volume (necrosis + enhancing): 34.9 cm³\", \"Necrotic core: present (11.2 cm³, central)\"],\n  \"differentials\": [\n    {\"diagnosis\": \"low_grade_glioma\", \"discriminator\": \"absence of necrosis and less extensive edema\"},\n    {\"diagnosis\": \"metastasis\", \"discriminator\": \"multiple lesions or different enhancement patterns\"}\n  ]\n}",
+    "parsed": {
+      "diagnosis": "glioblastoma",
+      "confidence": 0.85,
+      "laterality": "LEFT",
+      "lobe": "frontal",
+      "grade": "high",
+      "enhancement": "heterogeneous",
+      "key_evidence": [
+        "Whole tumor volume (including edema): 190.6 cm³",
+        "Tumor core volume (necrosis + enhancing): 34.9 cm³",
+        "Necrotic core: present (11.2 cm³, central)"
+      ],
+      "differentials": [
+        {
+          "diagnosis": "low_grade_glioma",
+          "discriminator": "absence of necrosis and less extensive edema"
+        },
+        {
+          "diagnosis": "metastasis",
+          "discriminator": "multiple lesions or different enhancement patterns"
+        }
+      ],
+      "parse_success": true,
+      "parse_method": "direct_json"
+    },
+    "inference_time_s": 59.97,
+    "model": "Qwen3-14B-4bit",
+    "mask_source": "gt.nii.gz"
+  },
+  "BraTS2021_00003": {
+    "features": {
+      "laterality": "midline",
+      "lateral_offset_mm": -14.6,
+      "ap_offset_mm": 10.6,
+      "si_offset_mm": 30.2,
+      "lobe": "high frontoparietal",
+      "volume_whole_tumor_cm3": 99.2,
+      "volume_tumor_core_cm3": 41.5,
+      "volume_enhancing_cm3": 24.3,
+      "volume_necrosis_cm3": 17.2,
+      "volume_edema_cm3": 57.8,
+      "enhancement_pattern": "heterogeneous",
+      "edema_extent": "extensive",
+      "necrosis_present": true,
+      "mass_effect": "possible"
+    },
+    "prompt": "You are a neuroradiologist reviewing a brain MRI. A prior automated segmentation and feature extraction pipeline has analyzed the patient's pre-operative MRI and extracted the following structured findings:\n\n## Structured Imaging Findings\n\n- Lesion laterality: midline hemisphere (-14.6 mm from brain midline)\n- Primary location: high frontoparietal lobe\n- Whole tumor volume (including edema): 99.2 cm³\n- Tumor core volume (necrosis + enhancing): 41.5 cm³\n- Enhancing tumor volume: 24.3 cm³\n- Necrotic core: present (17.2 cm³, central)\n- Peritumoral edema: extensive (57.8 cm³)\n- Enhancement pattern: heterogeneous\n- Mass effect: possible\n\n## Your Task\n\nBased SOLELY on these structured findings (do not speculate beyond what the features support), provide your diagnostic assessment.\n\nRespond with ONLY a JSON object in exactly this format, with no preamble or text outside the JSON:\n\n{\n  \"diagnosis\": \"<one of: glioblastoma, low_grade_glioma, meningioma, metastasis, lymphoma, abscess, other>\",\n  \"confidence\": <float between 0.0 and 1.0>,\n  \"laterality\": \"<LEFT, RIGHT, BILATERAL, or MIDLINE>\",\n  \"lobe\": \"<frontal, temporal, parietal, occipital, cerebellar, brainstem, or deep>\",\n  \"grade\": \"<high or low>\",\n  \"enhancement\": \"<ring, solid, homogeneous, heterogeneous, none>\",\n  \"key_evidence\": [\"<finding 1>\", \"<finding 2>\", \"<finding 3>\"],\n  \"differentials\": [\n    {\"diagnosis\": \"<alternative>\", \"discriminator\": \"<what info would rule in/out>\"},\n    {\"diagnosis\": \"<alternative>\", \"discriminator\": \"<what info would rule in/out>\"}\n  ]\n}",
+    "raw_output": "{\n  \"diagnosis\": \"glioblastoma\",\n  \"confidence\": 0.88,\n  \"laterality\": \"MIDLINE\",\n  \"lobe\": \"frontal\",\n  \"grade\": \"high\",\n  \"enhancement\": \"heterogeneous\",\n  \"key_evidence\": [\"Whole tumor volume (including edema): 99.2 cm³\", \"Tumor core volume (necrosis + enhancing): 41.5 cm³\", \"Enhancement pattern: heterogeneous\"],\n  \"differentials\": [\n    {\"diagnosis\": \"low_grade_glioma\", \"discriminator\": \"low-grade gliomas typically have less necrosis and less edema, and show more homogeneous enhancement\"},\n    {\"diagnosis\": \"metastasis\", \"discriminator\": \"metastases often present with multiple lesions and more solid enhancement, whereas necrosis and peritumoral edema are more characteristic of high-grade gliomas\"}\n  ]\n}",
+    "parsed": {
+      "diagnosis": "glioblastoma",
+      "confidence": 0.88,
+      "laterality": "MIDLINE",
+      "lobe": "frontal",
+      "grade": "high",
+      "enhancement": "heterogeneous",
+      "key_evidence": [
+        "Whole tumor volume (including edema): 99.2 cm³",
+        "Tumor core volume (necrosis + enhancing): 41.5 cm³",
+        "Enhancement pattern: heterogeneous"
+      ],
+      "differentials": [
+        {
+          "diagnosis": "low_grade_glioma",
+          "discriminator": "low-grade gliomas typically have less necrosis and less edema, and show more homogeneous enhancement"
+        },
+        {
+          "diagnosis": "metastasis",
+          "discriminator": "metastases often present with multiple lesions and more solid enhancement, whereas necrosis and peritumoral edema are more characteristic of high-grade gliomas"
+        }
+      ],
+      "parse_success": true,
+      "parse_method": "direct_json"
+    },
+    "inference_time_s": 74.37,
+    "model": "Qwen3-14B-4bit",
+    "mask_source": "gt.nii.gz"
+  }
+}

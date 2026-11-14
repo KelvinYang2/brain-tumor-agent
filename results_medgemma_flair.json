@@ -1,0 +1,502 @@
+{
+  "BraTS2021_00000": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There appears to be an extensive area of abnormal signal intensity in the RIGHT frontal lobe with associated mass effect and midline shift towards the LEFT. This could represent a large tumor or other space-occupying process. There may also be some surrounding edema/gliosis. No obvious hemorrhage or acute infarct is seen within this region based solely on these limited views. A full evaluation would require review of additional sequences such as T1 postcontrast imaging.",
+    "inference_time_s": 9.91,
+    "modality": "flair"
+  },
+  "BraTS2021_00002": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute/subacute infarct in the right frontal lobe with associated edema extending into the adjacent white matter. There may be some extension along the lateral surface of the hemisphere. No other significant findings identified within these limited views.",
+    "inference_time_s": 5.92,
+    "modality": "flair"
+  },
+  "BraTS2021_00003": {
+    "diagnosis": "unknown",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute/subacute infarct in the left frontal lobe with associated edema extending into the adjacent white matter. There may be some subtle extension along the lateral surface of the ventricle. No other significant findings identified.",
+    "inference_time_s": 5.69,
+    "modality": "flair"
+  },
+  "BraTS2021_00005": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an extensive area of encephalomalacia with surrounding edema in the RIGHT frontal lobe extending into the right temporal lobe. There appears to be some mass effect causing midline shift towards the left. No obvious hemorrhage or acute infarct identified within this region. A small focus of T2/FLAIR signal abnormality is present in the posterior fossa near the cerebellum which may represent chronic microvascular ischemic changes. Otherwise, there is no evidence for additional lesions. This finding could be consistent with a large old stroke involving the right frontotemporal lobes. Additional imaging such as CT angiography might be helpful if vascular etiology is suspected.",
+    "inference_time_s": 12.42,
+    "modality": "flair"
+  },
+  "BraTS2021_00006": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "unknown",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There appears to be an extensive mass occupying much of the RIGHT cerebral hemisphere with significant surrounding edema extending into the subarachnoid space. There may also be some involvement of the posterior fossa structures. This could represent a large tumor such as glioblastoma multiforme or metastasis. Other possibilities include abscesses although less likely given the appearance. A definitive diagnosis requires correlation with clinical findings and potentially further imaging like contrast enhancement studies.",
+    "inference_time_s": 8.84,
+    "modality": "flair"
+  },
+  "BraTS2021_00008": {
+    "diagnosis": "unknown",
+    "laterality": "LEFT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There appears to be an area of increased signal intensity in the left temporal lobe with associated edema/gliosis. This could represent a demyelinating plaque or other inflammatory process. There may also be some mild periventricular white matter changes consistent with chronic small vessel ischemic disease. No acute infarct or hemorrhage identified. Normal ventricles and sulci for age.",
+    "inference_time_s": 7.92,
+    "modality": "flair"
+  },
+  "BraTS2021_00009": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute infarct in the right frontal lobe with associated edema extending into the adjacent white matter. There is also evidence for chronic microvascular ischemic changes throughout both cerebral hemispheres. No other significant findings identified.",
+    "inference_time_s": 5.55,
+    "modality": "flair"
+  },
+  "BraTS2021_00011": {
+    "diagnosis": "unknown",
+    "laterality": "LEFT",
+    "lobe": "parietal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute/subacute infarct in the left parietal lobe with associated edema extending into the adjacent white matter. There may be some extension along the posterior cerebral artery territory. No other significant findings.",
+    "inference_time_s": 5.46,
+    "modality": "flair"
+  },
+  "BraTS2021_00012": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an extensive left frontal lobe mass with significant surrounding edema extending into the adjacent white matter. There appears to be some extension involving the lateral ventricle causing obstructive hydrocephalus. This finding is highly suggestive of a primary malignant tumor such as glioblastoma multiforme or metastatic disease. A secondary consideration would include infection/abscess given the location but less likely in this context without other supporting features. Further characterization requires correlation with clinical history and potentially further imaging like contrast enhanced T1 sequences.",
+    "inference_time_s": 9.84,
+    "modality": "flair"
+  },
+  "BraTS2021_00014": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "unknown",
+    "raw_output": "The provided images show an axial T2/FLAIR sequence of the brain. There appears to be mild periventricular white matter signal changes consistent with chronic small vessel ischemic disease. No acute infarct or hemorrhage is identified. A large mass in the right temporal lobe is present. This could represent a tumor such as glioblastoma multiforme. Other possibilities include metastasis or abscess although less likely given the lack of surrounding edema. Further evaluation would require contrast administration and possibly biopsy for definitive diagnosis. Additional findings include normal ventricles and sulci.",
+    "inference_time_s": 10.61,
+    "modality": "flair"
+  },
+  "BraTS2021_00016": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an area of encephalomalacia with surrounding edema in the right frontal lobe extending into the adjacent parietal lobe. There appears to be some associated gliosis as well. This could represent posttraumatic or posthemorrhagic changes. A mass cannot be excluded without further imaging such as contrast administration. No other significant findings are noted within these limited views.",
+    "inference_time_s": 7.79,
+    "modality": "flair"
+  },
+  "BraTS2021_00017": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute/subacute infarct in the right occipital lobe with associated edema extending into the posterior temporal lobe. There also appears to be some chronic ischemic changes within the left frontal lobe. No evidence for hemorrhage or mass effect. Findings consistent with **right occipital infarction**.",
+    "inference_time_s": 6.7,
+    "modality": "flair"
+  },
+  "BraTS2021_00018": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an extensive area of encephalomalacia with surrounding edema in the RIGHT frontal lobe extending into the right temporal lobe. There appears to be some mass effect causing midline shift towards the left. This finding is consistent with a large infarct or possibly a tumor that has undergone necrosis. A contrast enhanced study would be helpful for further characterization. No other significant findings are noted within these limited views.",
+    "inference_time_s": 8.4,
+    "modality": "flair"
+  },
+  "BraTS2021_00019": {
+    "diagnosis": "other",
+    "laterality": "BILATERAL",
+    "lobe": "unknown",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "The provided images show an axial T2/FLAIR sequence of the brain. There appears to be extensive white matter signal abnormality involving both cerebral hemispheres with involvement extending into the centrum semiovale bilaterally. This pattern suggests demyelinating disease such as multiple sclerosis or possibly other inflammatory conditions affecting the central nervous system. No obvious mass lesions or hemorrhage are seen in this limited view. Further evaluation would require review of additional sequences like DWI and contrast enhanced imaging if clinically indicated. A definitive diagnosis requires correlation with clinical history and potentially further investigations.",
+    "inference_time_s": 10.67,
+    "modality": "flair"
+  },
+  "BraTS2021_00020": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an approximately 4 x 3 cm mass in the left temporal lobe with surrounding edema extending into the adjacent white matter. There appears to be some involvement of the lateral ventricle. No significant midline shift or herniation is evident based solely on these images. This finding could represent a tumor such as glioblastoma multiforme. Other possibilities include abscesses or inflammatory lesions. Further evaluation would require correlation with clinical history and potentially additional imaging studies like contrast enhancement sequences. A definitive diagnosis requires histopathological examination after surgical resection if performed. Additional findings noted include mild periventricular T2/FLAIR signal changes consistent with chronic small vessel ischemic disease. These may reflect age related microangiopathy. Mild generalized cerebral atrophy is also present. Normal flow voids are seen within the intracranial vessels. IMPRESSION: Left temporal lobe mass with associated edema involving the adjacent whitematter and lateral ventricle. Differential includes neoplasm versus infection. Correlation with prior imaging and clinical information recommended for further characterization. Chronic small vessel ischemic change and mild global atrophy.",
+    "inference_time_s": 18.09,
+    "modality": "flair"
+  },
+  "BraTS2021_00021": {
+    "diagnosis": "unknown",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute infarct in the left frontal lobe with associated edema extending into the adjacent white matter. There also appears to be some chronic ischemic changes present as well. No other significant findings identified.",
+    "inference_time_s": 5.42,
+    "modality": "flair"
+  },
+  "BraTS2021_00022": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "parietal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an extensive area of abnormal signal intensity in the left parietal lobe with associated mass effect and midline shift towards the right. There appears to be significant edema surrounding this region as well. This finding is highly suggestive of a large intracranial neoplasm such as glioblastoma multiforme or metastasis. Other possibilities include abscesses although less likely given the appearance. A contrast enhanced study would be needed for definitive characterization. No other focal lesions are identified within these limited views. Normal ventricles and sulci noted.",
+    "inference_time_s": 10.14,
+    "modality": "flair"
+  },
+  "BraTS2021_00024": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "occipital",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There appears to be an acute infarct in the right occipital lobe with associated edema/gliosis. There may also be some chronic changes present as well. No other significant findings identified within these limited views.",
+    "inference_time_s": 5.55,
+    "modality": "flair"
+  },
+  "BraTS2021_00025": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "The provided images show an axial T2/FLAIR sequence of the brain. There appears to be a well-circumscribed area of increased signal intensity in the right frontal lobe with surrounding edema. This could represent a mass or other focal abnormality such as an infarct or tumor. Further evaluation would require additional imaging sequences like diffusion weighted imaging and contrast enhancement. A definitive diagnosis cannot be made based solely on these images.",
+    "inference_time_s": 8.68,
+    "modality": "flair"
+  },
+  "BraTS2021_00026": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There appears to be an area of abnormal signal intensity in the right frontal lobe with associated edema/gliosis. This could represent a focal infarct or other process such as tumor. There may also be some mild periventricular white matter changes consistent with chronic small vessel ischemic disease. No acute hemorrhage or mass effect identified.",
+    "inference_time_s": 7.22,
+    "modality": "flair"
+  },
+  "BraTS2021_00028": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "Findings: There is an area of encephalomalacia with surrounding gliosis in the right frontal lobe extending into the adjacent parietal lobe. This corresponds to a region of decreased signal intensity on T1 weighted imaging consistent with chronic infarction/hemorrhage. No acute infarct or hemorrhage is identified. Ventricles appear normal for age. Sulci are appropriate for age.",
+    "inference_time_s": 7.92,
+    "modality": "flair"
+  },
+  "BraTS2021_00030": {
+    "diagnosis": "other",
+    "laterality": "LEFT",
+    "lobe": "cerebellar",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute infarct in the left cerebellum with associated edema extending into the adjacent white matter. There may be some extension along the cerebellar folia. No hemorrhage or mass effect noted.",
+    "inference_time_s": 5.24,
+    "modality": "flair"
+  },
+  "BraTS2021_00031": {
+    "diagnosis": "unknown",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute infarct in the left frontal lobe with associated edema extending into the adjacent white matter. There is also evidence for chronic infarction involving the right parietal lobe. No other significant findings identified.",
+    "inference_time_s": 5.4,
+    "modality": "flair"
+  },
+  "BraTS2021_00032": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute/subacute infarct in the right posterior temporal lobe with associated edema extending into the adjacent white matter. There may be some subtle involvement of the underlying cortex as well. No other significant findings noted.",
+    "inference_time_s": 5.71,
+    "modality": "flair"
+  },
+  "BraTS2021_00033": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There appears to be an extensive area of encephalomalacia with associated hemosiderin deposition in the right frontal lobe extending into the adjacent parietal lobe. There may also be some mild edema present within this region. No acute infarct or hemorrhage is identified. This finding could represent sequelae of prior ischemic stroke/hemorrhagic infarction. A contrast enhanced study would be helpful for further evaluation if clinically indicated.",
+    "inference_time_s": 8.5,
+    "modality": "flair"
+  },
+  "BraTS2021_00035": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "occipital",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute infarct in the right occipital lobe with associated edema extending into the posterior limb of the internal capsule. There may be some extension along the lateral border of the lentiform nucleus. No other significant findings.",
+    "inference_time_s": 5.8,
+    "modality": "flair"
+  },
+  "BraTS2021_00036": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an extensive area of encephalomalacia with associated gliosis in the right frontal lobe extending into the adjacent parietal lobe. There appears to be some mass effect causing mild midline shift towards the left. No acute hemorrhage or infarct is identified. This finding could represent sequelae of prior infarction/hemorrhage. A neoplasm cannot be entirely excluded without further imaging such as contrast administration. Other possibilities include chronic infection or inflammatory process. Further evaluation would require clinical correlation and potentially additional studies like CT angiography if vascular etiology suspected.",
+    "inference_time_s": 10.37,
+    "modality": "flair"
+  },
+  "BraTS2021_00043": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "cerebellar",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute large right MCA territory infarct with significant edema extending into the left hemisphere. There is also evidence for chronic lacunar infarct in the RIGHT cerebellum. No other focal lesions identified. Normal appearance of the ventricles and sulci.",
+    "inference_time_s": 6.08,
+    "modality": "flair"
+  },
+  "BraTS2021_00044": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute infarct in the right frontal lobe with associated edema extending into the adjacent white matter. There is also evidence for chronic microvascular ischemic changes throughout both cerebral hemispheres. No other significant findings identified.",
+    "inference_time_s": 5.57,
+    "modality": "flair"
+  },
+  "BraTS2021_00045": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There appears to be an acute infarct in the right frontal lobe with associated edema/gliosis. There also appear to be multiple small foci of increased signal intensity within both cerebral hemispheres that may represent chronic microvascular ischemic changes or sequelae of prior insults. No evidence for hydrocephalus or mass effect. Normal midline structures.",
+    "inference_time_s": 7.23,
+    "modality": "flair"
+  },
+  "BraTS2021_00046": {
+    "diagnosis": "unknown",
+    "laterality": "LEFT",
+    "lobe": "parietal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute/subacute left parietal lobe infarct with associated edema extending into the adjacent white matter. There may be some subtle extension along the posterior cerebral artery territory. No other significant findings identified in this limited field-of-view examination.",
+    "inference_time_s": 6.16,
+    "modality": "flair"
+  },
+  "BraTS2021_00048": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute/subacute infarct in the right posterior temporal lobe with associated edema extending into the adjacent white matter. There is no evidence for hemorrhage or mass effect. No other significant findings identified.",
+    "inference_time_s": 5.48,
+    "modality": "flair"
+  },
+  "BraTS2021_00049": {
+    "diagnosis": "other",
+    "laterality": "BILATERAL",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an extensive area of encephalomalacia with surrounding gliosis in the right frontal lobe extending into the adjacent parietal lobe. There may be some subtle enhancement along the margins of this region. No midline shift or mass effect is evident. This finding is consistent with a large infarct/hemorrhagic stroke involving the right MCA territory. Additional scattered foci of white matter signal abnormality are present bilaterally, which could represent chronic microvascular ischemic changes. A small focus of increased T2 signal is noted within the left cerebellum. These findings do not appear acute.",
+    "inference_time_s": 10.81,
+    "modality": "flair"
+  },
+  "BraTS2021_00051": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There appears to be an extensive area of encephalomalacia with associated gliosis in the right frontal lobe extending into the adjacent parietal lobe. There may also be some involvement of the underlying white matter tracts. No acute hemorrhage or infarct is identified. This finding could represent sequelae of prior infarction/hemorrhage. Other findings include mild periventricular T2 signal changes which can be seen in normal aging. A small focus of increased T2 signal within the left cerebellum might reflect chronic microvascular ischemic change. Overall, there does not appear to be evidence for active disease.",
+    "inference_time_s": 11.32,
+    "modality": "flair"
+  },
+  "BraTS2021_00052": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an extensive left frontal lobe mass with significant surrounding edema extending into the adjacent white matter. There appears to be some extension involving the lateral ventricle causing mild ventricular compression. No definite midline shift or herniation is evident based solely on these images. This finding would be consistent with a primary brain tumor such as glioblastoma multiforme. Other possibilities include metastasis or less commonly lymphoma/sarcoma. A contrast enhanced study would be needed for definitive characterization.",
+    "inference_time_s": 9.37,
+    "modality": "flair"
+  },
+  "BraTS2021_00053": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an extensive area of encephalomalacia with surrounding edema in the RIGHT frontal lobe extending into the right temporal lobe. There appears to be some mass effect causing mild midline shift towards the left. This finding is consistent with a large infarct or possibly a tumor that has undergone necrosis. A contrast enhanced study would be helpful for further characterization. No other significant findings noted.",
+    "inference_time_s": 8.06,
+    "modality": "flair"
+  },
+  "BraTS2021_00054": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an approximately 4 cm x 3 cm mass in the RIGHT frontal lobe with significant surrounding edema extending into the adjacent white matter. There appears to be some extension along the lateral ventricle surface towards the right temporal horn. No definite midline shift or herniation is evident based solely on these images. This finding is highly suspicious for a primary malignant tumor such as glioblastoma multiforme. Other possibilities include metastasis or less commonly lymphoma/leukemia. A biopsy would be required for definitive diagnosis. Additional imaging including contrast enhancement sequences may help further characterize this lesion.",
+    "inference_time_s": 11.09,
+    "modality": "flair"
+  },
+  "BraTS2021_00056": {
+    "diagnosis": "glioblastoma",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an extensive right frontal lobe mass with significant surrounding edema extending into the adjacent white matter. There also appears to be involvement of the lateral ventricle. No definite midline shift or herniation is evident based solely on these images. This finding would be consistent with a large primary tumor such as glioblastoma multiforme. Other possibilities include metastasis or less commonly lymphoma/sarcoma. A contrast enhanced study would be needed for further characterization. Additional findings include scattered foci of increased T2 signal in both cerebral hemispheres which may represent chronic microvascular ischemic changes. These appear nonspecific.",
+    "inference_time_s": 11.14,
+    "modality": "flair"
+  },
+  "BraTS2021_00058": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There appears to be an area of increased signal intensity in the right posterior temporal lobe with associated volume loss/atrophy. This could represent chronic infarct or other process such as tumor or demyelination. There may also be some mild periventricular white matter changes consistent with microvascular ischemic disease. No acute hemorrhage or mass effect identified. Normal ventricles and midline structures.",
+    "inference_time_s": 7.98,
+    "modality": "flair"
+  },
+  "BraTS2021_00059": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an extensive area of encephalomalacia with associated gliosis in the RIGHT frontal lobe extending into the right temporal lobe. There appears to be some mass effect causing mild midline shift towards the left. No acute hemorrhage or infarct is identified. This finding could represent sequelae of prior infarction/hemorrhage. A neoplasm cannot be entirely excluded without further imaging but this appearance is more consistent with post-traumatic changes given the location. Additional studies may be warranted for definitive characterization if clinically indicated.",
+    "inference_time_s": 10.06,
+    "modality": "flair"
+  },
+  "BraTS2021_00060": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "present",
+    "raw_output": "There is an extensive left frontal lobe mass with significant surrounding edema extending into the adjacent white matter. There appears to be some involvement of the lateral ventricle. This could represent a primary tumor such as glioblastoma multiforme or metastasis given its size and location. Other possibilities include infection/abscess although less likely without other signs. A biopsy would be required for definitive diagnosis. No acute hemorrhage identified. Mild chronic microvascular ischemic changes in both cerebral hemispheres. Normal midline structures. IMPRESSION: Large left frontal lobe enhancing mass with associated vasogenic edema. Differential includes high grade glioma versus metastatic disease. Biopsy recommended.",
+    "inference_time_s": 11.74,
+    "modality": "flair"
+  },
+  "BraTS2021_00061": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There appears to be an area of increased signal intensity in the right frontal lobe with associated volume loss/atrophy. This could represent chronic infarct or other process. There also appear to be areas of decreased signal intensity within this region which may indicate gliosis. No acute hemorrhage or mass effect identified. Additional findings include mild periventricular white matter changes consistent with microvascular ischemic disease. These findings would support a diagnosis such as old stroke or possibly multiple sclerosis given the location and appearance. Further clinical correlation is recommended for definitive diagnosis.",
+    "inference_time_s": 10.44,
+    "modality": "flair"
+  },
+  "BraTS2021_00062": {
+    "diagnosis": "other",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an extensive area of encephalomalacia with surrounding edema in the left frontal lobe extending into the adjacent parietal lobe. There appears to be some mass effect causing midline shift towards the right. This finding is consistent with a large infarct or possibly a tumor that has undergone necrosis. A contrast enhanced study would be helpful for further characterization. No other significant findings are noted.",
+    "inference_time_s": 8.06,
+    "modality": "flair"
+  },
+  "BraTS2021_00063": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "high",
+    "enhancement": "unknown",
+    "raw_output": "There is an approximately 3 x 4 cm mass in the left frontal lobe with surrounding edema extending into the adjacent white matter. There appears to be some involvement of the lateral ventricle. This could represent a primary tumor such as glioblastoma or metastasis, although other possibilities exist depending on clinical context. A biopsy would be needed for definitive diagnosis. Other findings include scattered periventricular T2/FLAIR hyperintensities consistent with chronic small vessel ischemic changes. No acute infarct is identified.",
+    "inference_time_s": 9.9,
+    "modality": "flair"
+  },
+  "BraTS2021_00064": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute infarct in the right frontal lobe with associated hemorrhage extending into the adjacent white matter. There is also evidence for chronic infarction involving the left parietal lobe. No other significant findings identified.",
+    "inference_time_s": 5.39,
+    "modality": "flair"
+  },
+  "BraTS2021_00066": {
+    "diagnosis": "unknown",
+    "laterality": "LEFT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an acute/subacute infarct in the left frontal lobe with associated edema extending into the adjacent white matter. There may be some surrounding vasogenic edema as well. No other significant findings noted.",
+    "inference_time_s": 5.48,
+    "modality": "flair"
+  },
+  "BraTS2021_00068": {
+    "diagnosis": "other",
+    "laterality": "LEFT",
+    "lobe": "temporal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There is an extensive area of encephalomalacia with surrounding edema in the left frontal lobe extending into the temporal lobe. There appears to be some mass effect causing midline shift towards the right. This could represent posttraumatic or posthemorrhagic infarction/encephalomalacia. A neoplasm cannot be entirely excluded without further imaging but it seems less likely given the appearance. No acute hemorrhage is seen.",
+    "inference_time_s": 8.39,
+    "modality": "flair"
+  },
+  "BraTS2021_00070": {
+    "diagnosis": "other",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "present",
+    "raw_output": "There is an extensive area of encephalomalacia with surrounding edema in the RIGHT frontal lobe extending into the right lateral ventricle. There appears to be some mass effect causing midline shift towards the left. This finding is consistent with a large hemorrhagic infarct or possibly a tumor that has undergone necrosis. A contrast enhanced study would be helpful for further characterization. No other significant findings are noted within these limited views.",
+    "inference_time_s": 8.43,
+    "modality": "flair"
+  },
+  "BraTS2021_00071": {
+    "diagnosis": "glioblastoma",
+    "laterality": "LEFT",
+    "lobe": "temporal",
+    "grade": "high",
+    "enhancement": "unknown",
+    "raw_output": "There is an extensive left parietal lobe mass with significant surrounding edema extending into the temporal lobe. There appears to be some involvement of the adjacent frontal lobe as well. This could represent a large tumor such as glioblastoma multiforme or metastasis. Other possibilities include abscesses or inflammatory processes. Further evaluation including biopsy would be required for definitive diagnosis. No acute infarct is identified. Mild age related changes in the white matter are present bilaterally. Normal ventricles and sulci.",
+    "inference_time_s": 9.58,
+    "modality": "flair"
+  },
+  "BraTS2021_00072": {
+    "diagnosis": "unknown",
+    "laterality": "RIGHT",
+    "lobe": "frontal",
+    "grade": "unknown",
+    "enhancement": "unknown",
+    "raw_output": "There appears to be an acute infarct in the right frontal lobe with associated edema/gliosis extending into adjacent white matter tracts. There also appear to be multiple small foci of chronic microvascular ischemic changes scattered throughout both cerebral hemispheres. No other significant findings noted.",
+    "inference_time_s": 6.31,
+    "modality": "flair"
+  }
+}

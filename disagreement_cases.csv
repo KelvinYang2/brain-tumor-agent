@@ -1,0 +1,2 @@
+,gt_diagnosis,pred_diagnosis,gt_laterality,pred_laterality,gt_lobe,pred_lobe,gt_grade,pred_grade,gt_enh,pred_enh
+BraTS2021_00017,glioblastoma,low_grade_glioma,LEFT,LEFT,deep,deep,high,low,solid,solid
